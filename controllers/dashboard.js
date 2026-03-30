@@ -20,14 +20,19 @@ const dashboard = {
     response.render('dashboard', viewData);
   },
   addPlaylist(request, response) {
-    const newPlayList = {
+    const timestamp = new Date();
+    
+    const newPlaylist = {
       id: uuidv4(),
       title: request.body.title,
-      songs: [],
+      rating: request.body.rating,
+	  date: timestamp,
+      songs: []
     };
-    playlistStore.addPlaylist(newPlayList);
+    playlistStore.addPlaylist(newPlaylist);
     response.redirect('/dashboard');
 },
+
 deletePlaylist(request, response) {
     const playlistId = request.params.id;
     logger.debug(`Deleting Playlist ${playlistId}`);
