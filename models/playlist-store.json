@@ -46,6 +46,11 @@
           "id": "09",
           "title": "Piano Concerto No. 6",
           "artist": "Beethoven"
+        },
+        {
+          "id": "3006714b-cbbd-40c9-9819-cfe25ddfafed",
+          "title": "adass",
+          "artist": "gaa"
         }
       ]
     },
@@ -60,7 +65,13 @@
       "title": "beethoven symphonies",
       "date": "2026-03-30T17:57:00.691Z",
       "rating": 5,
-      "songs": []
+      "songs": [
+        {
+          "id": "14e4f88a-1c9c-4374-a283-1a6b773fa86e",
+          "title": "sdfsdfd",
+          "artist": "32432"
+        }
+      ]
     }
   ]
 }
