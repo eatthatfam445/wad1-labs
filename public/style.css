@@ -12,4 +12,12 @@ html {
     margin: 2em;
     background-color: lightgrey;
   }
-  
+
+  .editSubmit {
+  border:none;
+  background: none;
+}
+
+  .hide{
+    display: none;
+}
