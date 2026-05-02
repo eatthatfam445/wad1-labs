@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+    },
+    {
+      "firstName": "marge",
+      "lastName": "simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "id": "6e29b97f-cece-4bd7-9efa-5beeec74c4c1"
+    },
+    {
+      "firstName": "asd",
+      "lastName": "asd",
+      "email": "asd",
+      "password": "asd",
+      "id": "96e5baf9-20e9-4fbe-aa25-125e4c4e3ce6"
+    },
+    {
+      "firstName": "nathan",
+      "lastName": "m",
+      "email": "nathan.com",
+      "password": "secret1",
+      "id": "c2dc45ff-f489-4331-800b-9b00f89f63db"
+    },
+    {
+      "firstName": "nathan",
+      "lastName": "m",
+      "email": "nathan.com",
+      "password": "secret1",
+      "id": "1a7d8772-2ded-40b7-b5fb-c42ea4026b88"
+    },
+    {
+      "firstName": "nathan",
+      "lastName": "m",
+      "email": "nathan.com",
+      "password": "secret1",
+      "id": "36bd5610-3430-4fb5-934f-7c59580a0857"
+    },
+    {
+      "firstName": "1",
+      "lastName": "2",
+      "email": "3",
+      "password": "4",
+      "id": "fbcd3787-3347-4ab1-a84a-75fb2123cb19"
+    },
+    {
+      "firstName": "1",
+      "lastName": "2",
+      "email": "3@com",
+      "password": "4",
+      "id": "bd074744-fd26-4c40-af70-d1589f2c5586"
+    },
+    {
+      "firstName": "1",
+      "lastName": "2",
+      "email": "3@com",
+      "password": "4",
+      "id": "26f3715c-d217-4d25-b315-e71558b6c4a7"
+    },
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "hsimpson@gmail.com",
+      "password": "1",
+      "id": "4483c8e1-0020-4f12-a1be-3e0333991d46"
+    },
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "hsimpson@gmail.com",
+      "password": "1",
+      "id": "5e9365ec-4551-4c06-95ee-a2958516bfa8"
+    }
+  ]
+}

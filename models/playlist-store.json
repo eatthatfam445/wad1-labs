@@ -1,84 +1,32 @@
 {
   "playlistCollection": [
     {
-      "id": "01",
-      "title": "Beethoven Sonatas",
-      "rating": 3,
-      "songs": [
-        {
-          "id": "04",
-          "title": "Piano Sonata No. 3",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "05",
-          "title": "Piano Sonata No. 7",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "06",
-          "title": "Piano Sonata No. 10",
-          "artist": "Beethevoencho"
-        },
-        {
-          "id": "0513a76e-90b7-4c5a-86cf-c7194004d390",
-          "title": "New Sonata",
-          "artist": "Beethoven"
-        }
-      ]
-    },
-    {
-      "id": "02",
-      "title": "Beethoven Concertos",
-      "rating": 3,
-      "songs": [
-        {
-          "id": "07",
-          "title": "Piano Concerto No. 0",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "08",
-          "title": "Piano Concerto No. 4",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "09",
-          "title": "Piano Concerto No. 6",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "3006714b-cbbd-40c9-9819-cfe25ddfafed",
-          "title": "adass",
-          "artist": "gaa"
-        }
-      ]
-    },
-    {
-      "id": "44a8b38e-9795-4f5a-92a1-54054c684a47",
-      "title": "Beethoven works",
-      "rating": 3,
-      "songs": []
-    },
-    {
-      "id": "de624938-db75-4164-b2d8-da77304c920a",
-      "title": "beethoven symphonies",
-      "date": "2026-03-30T17:57:00.691Z",
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "id": "93e9b7ba-d802-4140-b228-1958cd64aa71",
+      "title": "Marge's playlist",
       "rating": 5,
       "songs": [
         {
-          "id": "14e4f88a-1c9c-4374-a283-1a6b773fa86e",
-          "title": "sdfsdfd",
-          "artist": "32432"
+          "id": "2f9586c3-284b-4daf-aa95-aa185460e3c3",
+          "title": "Marge's song",
+          "artist": "Marge"
         }
-      ]
+      ],
+      "date": "2026-04-17T08:41:13.468Z"
     },
     {
-      "id": "0594038e-afc8-4233-8799-393c66fd9720",
-      "title": "symphonies",
-      "rating": "4",
-      "date": "2026-04-06T12:53:02.646Z",
-      "songs": []
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "54d167bd-e9f3-4e8b-a7cb-b97ae23b998c",
+      "title": "Homer's playlist",
+      "rating": 5,
+      "songs": [
+        {
+          "id": "7dabeef0-789d-4ea8-8774-88709e0fef0b",
+          "title": "Homer's song",
+          "artist": "Homer"
+        }
+      ],
+      "date": "2026-04-17T08:41:32.483Z"
     }
   ]
 }

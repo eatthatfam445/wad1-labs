@@ -1,10 +1,16 @@
 "use strict";
 import logger from "../utils/logger.js";
 import playlistStore from "../models/playlist-store.js";
+import accounts from './accounts.js';
+import userStore from "../models/user-store.js";
+
 
 const stats = {
   createView(request, response) {
-    logger.info("Stats page loading!");
+    const loggedInUser = accounts.getCurrentUser(request);
+
+    if (loggedInUser) {
+      logger.info("Stats page loading!");
     // app statistics calculations
     const playlists = playlistStore.getAllPlaylists();
 
@@ -21,6 +27,8 @@ let favTitles = maxRated.map(item => item.title);
 let largestSongs = Math.max(...playlists.map(playlist => playlist.songs.length));
 let largestPlaylists = playlists.filter(playlist => playlist.songs.length === largestSongs);
 let largestTitles = largestPlaylists.map(playlist => playlist.title);
+const users = userStore.getAllUsers();
+const numUsers = users.length;
 
     const statistics = {
     displayNumPlaylists: numPlaylists,
@@ -30,18 +38,20 @@ let largestTitles = largestPlaylists.map(playlist => playlist.title);
 	  highest: maxRating,
     displayFav: favTitles,
     largestSongs: largestSongs,
-    largestTitles: largestTitles
+    largestTitles: largestTitles,
+    displayNumUsers: numUsers
 };
 
-    const viewData = {
-      title: "Playlist App Statistics",
-      stats: statistics
-    };
-  
-    response.render("stats", viewData);
-  },
+     const viewData = {
+        title: "Playlist App Statistics",
+        stats: statistics,
+        fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName
+      };
 
-  
-};
+      response.render("stats", viewData);
+    }
+    else response.redirect('/');
+  }
 
+}
 export default stats;
