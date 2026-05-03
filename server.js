@@ -1,5 +1,5 @@
 'use strict';
-
+import 'dotenv/config';
 import express from 'express';
 import logger from "./utils/logger.js";
 import routes from './routes.js'; 

@@ -14,6 +14,7 @@ createView(request, response) {
       const viewData = {
         title: 'About the Playlist App',
         fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+        picture: loggedInUser.picture,
         employees: employee.getAppInfo(),
       };
       response.render('about', viewData);

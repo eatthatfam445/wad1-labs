@@ -1,5 +1,5 @@
 'use strict';
-
+import { v2 as cloudinary } from "cloudinary";
 import logger from '../utils/logger.js';
 import JsonStore from './json-store.js';
 
@@ -20,10 +20,18 @@ const userStore = {
     return this.store.findOneBy(this.collection, (user => user.email === email));
   },
   
-  addUser(user) {
+ async addUser(user, file, callback) {
+  try {
+    if (file) {
+      user.picture = await this.store.addToCloudinary(file);
+    }
     this.store.addCollection(this.collection, user);
+    callback();
+  } catch (error) {
+    logger.error(error);
+    callback(error);
   }
-
-};
+}
+}
 
 export default userStore;

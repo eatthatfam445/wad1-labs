@@ -38,14 +38,16 @@ const accounts = {
   },
   
  //register function to render the registration page for adding a new user
-  register(request, response) {
-    const user = request.body;
-    user.id = uuidv4();
-    userStore.addUser(user);
-    logger.info('registering' + user.email);
+ register(request, response) {
+  const user = request.body;
+  user.id = uuidv4();
+  const file = request.files && request.files.profilepic ? request.files.profilepic : null;
+  logger.info('registering' + user.email);
+  userStore.addUser(user, file, () => {
     response.cookie('playlist', user.email);
     response.redirect('/start');
-  },
+  });
+},
   
   //authenticate function to check user credentials and either render the login page again or the start page.
   authenticate(request, response) {

@@ -83,6 +83,57 @@
       "email": "hsimpson@gmail.com",
       "password": "1",
       "id": "5e9365ec-4551-4c06-95ee-a2958516bfa8"
+    },
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "hsimpson@gmail.com",
+      "password": "1",
+      "id": "624424a9-3810-4eb2-94f0-4f5fa57e54cb"
+    },
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "hsimpson@gmail.com",
+      "password": "1",
+      "id": "a5553e00-82bd-4224-889f-04c1f79b0c97",
+      "picture": {
+        "url": "https://res.cloudinary.com/dllh5rpjt/image/upload/v1777803480/asbyv9kc8yjflulitbr9.jpg",
+        "public_id": "asbyv9kc8yjflulitbr9"
+      }
+    },
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "hsimpson@gmail.com",
+      "password": "1",
+      "id": "4bff817c-f6d8-4087-a1a9-fabfdbfb5c75",
+      "picture": {
+        "url": "https://res.cloudinary.com/dllh5rpjt/image/upload/v1777803494/oiridhl5xnnmhbtrlqvh.jpg",
+        "public_id": "oiridhl5xnnmhbtrlqvh"
+      }
+    },
+    {
+      "firstName": "Nathan",
+      "lastName": "McDonald",
+      "email": "20112178@mail.wit.ie",
+      "password": "1",
+      "id": "b4927346-3b65-4b6d-9081-15990bcaf132",
+      "picture": {
+        "url": "https://res.cloudinary.com/dllh5rpjt/image/upload/v1777804853/qnqqqol1swcnglnwecgr.png",
+        "public_id": "qnqqqol1swcnglnwecgr"
+      }
+    },
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "hsimpson@gmail.com",
+      "password": "2",
+      "id": "010f9cad-3644-4fdf-8913-a234066ebf94",
+      "picture": {
+        "url": "https://res.cloudinary.com/dllh5rpjt/image/upload/v1777804899/zexu1ktun4amkbjgfhje.jpg",
+        "public_id": "zexu1ktun4amkbjgfhje"
+      }
     }
   ]
 }
